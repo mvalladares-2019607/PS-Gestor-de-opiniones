@@ -1,0 +1,95 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Publications",
+    "dateExported": "2024-03-03T22:34:34.603Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6aab183b-9865-4895-82ef-5fc7b6783718",
+            "colId": "12f5cea1-c7c4-4768-bae6-d516d15d8c0e",
+            "containerId": "",
+            "name": "createPost",
+            "url": "http://localhost:3000/api/post/createPost",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T16:43:06.389Z",
+            "modified": "2024-03-03T19:17:15.126Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"GRADUACIÓN\",\n  \"category\": \"IMPORTANTE\",\n  \"content\": \"FOTOS DE GRADUACIÓN\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3c91f30e-fdd2-4c0d-8ce3-5f1aa88dcee9",
+            "colId": "12f5cea1-c7c4-4768-bae6-d516d15d8c0e",
+            "containerId": "",
+            "name": "getPost",
+            "url": "http://localhost:3000/api/post/getPost",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-03-03T19:03:47.868Z",
+            "modified": "2024-03-03T19:05:17.713Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4cee55e8-3546-4069-93a8-dd348acefc15",
+            "colId": "12f5cea1-c7c4-4768-bae6-d516d15d8c0e",
+            "containerId": "",
+            "name": "editPost",
+            "url": "http://localhost:3000/api/post/editPost/65e4ccbc6e5c012f215d72c4",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-03T17:06:29.231Z",
+            "modified": "2024-03-03T19:17:53.236Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"aja\", \n  \"category\": \"aja\", \n  \"content\": \"aja\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9d09fb0b-9ebe-49b0-a621-d9941c3315b3",
+            "colId": "12f5cea1-c7c4-4768-bae6-d516d15d8c0e",
+            "containerId": "",
+            "name": "deletePost",
+            "url": "http://localhost:3000/api/post/deletePost/65e4ccbc6e5c012f215d72c4",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-03T17:23:22.026Z",
+            "modified": "2024-03-03T19:18:23.769Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

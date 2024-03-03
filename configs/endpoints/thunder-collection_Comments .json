@@ -1,0 +1,95 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Comments ",
+    "dateExported": "2024-03-03T22:34:38.430Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d7b2176c-5270-4eb1-b0c0-1f665ab061da",
+            "colId": "3790cef0-27a6-4f02-9057-1b8462ef0faf",
+            "containerId": "",
+            "name": "createComment",
+            "url": "http://localhost:3000/api/comments/create/65e4e0410f05709175ac433f",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T20:38:44.168Z",
+            "modified": "2024-03-03T22:23:46.742Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\": \"HOLA!!\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d4c982a6-e9a4-48e9-b5c2-06e20dcba294",
+            "colId": "3790cef0-27a6-4f02-9057-1b8462ef0faf",
+            "containerId": "",
+            "name": "getComment",
+            "url": "http://localhost:3000/api/comments/getComment",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-03-03T21:16:21.134Z",
+            "modified": "2024-03-03T21:19:24.171Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1deab70a-320e-4159-b793-5692792ef902",
+            "colId": "3790cef0-27a6-4f02-9057-1b8462ef0faf",
+            "containerId": "",
+            "name": "editComment",
+            "url": "http://localhost:3000/api/comments/edit/65e4f872f659a86ea7242ab7",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-03T21:07:05.346Z",
+            "modified": "2024-03-03T22:24:15.044Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\": \"Hola, que bueno q se juntaron!!\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "314f37ad-477f-4d47-9778-b0c92aac9f11",
+            "colId": "3790cef0-27a6-4f02-9057-1b8462ef0faf",
+            "containerId": "",
+            "name": "deleteComment",
+            "url": "http://localhost:3000/api/comments/delete/65e4e2856575d403a82e0e3a",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-03T21:07:14.968Z",
+            "modified": "2024-03-03T21:56:12.808Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTRiZjYxNDUxMjllZGIzM2RjZDVlMiIsImlhdCI6MTcwOTQ5MDc4OX0.x1SlASs7YWK6rTgBiO6f-KUFV77MCOrKuCl_E0rD6dA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

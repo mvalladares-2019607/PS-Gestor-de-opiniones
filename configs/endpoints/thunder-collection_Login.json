@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-03-03T22:34:30.410Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "04094045-41cb-4dfc-b336-2d52dc8953a9",
+            "colId": "27f626c2-95c7-437b-90ee-6b73e1d7a350",
+            "containerId": "",
+            "name": "loginPost",
+            "url": "http://localhost:3000/api/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T20:23:18.696Z",
+            "modified": "2024-03-03T18:20:28.466Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\n  \"password\": \"12345\", \n  \"email\": \"jorge@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cf7479b4-3971-4449-a157-b75ea29beca8",
+            "colId": "27f626c2-95c7-437b-90ee-6b73e1d7a350",
+            "containerId": "",
+            "name": "editProfile",
+            "url": "http://localhost:3000/api/auth/editProfile/65e37ddcdf59bd2bd43d77d7",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-03T15:56:46.574Z",
+            "modified": "2024-03-03T16:09:48.898Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"jose\", \n  \"username\": \"holajose\", \n  \"password\": \"45165\",\n  \"email\": \"jose@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
