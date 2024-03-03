@@ -7,6 +7,7 @@ import morgan from 'morgan';
 import { dbConnection } from './mongo.js'; 
 import authRoutes from '../src/auth/auth.routes.js'
 import postRoutes from '../src/Publications/post.routes.js'
+import commentRoutes from '../src/Comments/comments.routes.js';
 
 class Server { 
     constructor(){
@@ -14,7 +15,7 @@ class Server {
         this.port = process.env.PORT; 
         this.authPath = '/api/auth/'; 
         this.postPath = '/api/post/';
-
+        this.commentsPath = '/api/comments/';
         this.middelwares(); 
         this.conectarDB(); 
         this.routes(); 
@@ -31,7 +32,8 @@ class Server {
     }
     routes(){
         this.app.use(this.authPath, authRoutes);
-        this.app.use(this.postPath, postRoutes)
+        this.app.use(this.postPath, postRoutes);
+        this.app.use(this.commentsPath, commentRoutes);
     }
     listen(){
         this.app.listen(this.port, () =>{
